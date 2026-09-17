@@ -7,10 +7,10 @@
 
 **核心技術棧**
 
-* **前端架構**：React、JavaScript (ES6+)、Axios、Chart.js
+* **前端架構**：React、JavaScript、Axios、Chart.js
 
 
-* **後端架構**：Java (Spring Boot 3)、RESTful API 設計
+* **後端架構**：Java (Spring Boot)、RESTful API 設計
 
 
 * **資料庫與 ORM**：MySQL 8.0、Spring Data JPA (Hibernate)、HikariCP 連線池
@@ -38,3 +38,8 @@
 
 
 * **事務邊界與延遲載入控制**：在 Service 業務層精準定義 `@Transactional` 事務邊界，徹底解決 Entity 關聯轉換 DTO 時因 `FetchType.LAZY` 引發的 `LazyInitializationException`，兼顧連線隨借隨還的效能與資料完整性。
+
+<img width="869" height="769" alt="image" src="https://github.com/user-attachments/assets/aacdad77-13aa-450c-8ab9-83d504cad9d6" />
+<img width="869" height="516" alt="image" src="https://github.com/user-attachments/assets/2cc87cb6-daa8-488f-bb27-195b04c83ebf" />
+<img width="869" height="582" alt="image" src="https://github.com/user-attachments/assets/989abdf1-077b-45ab-b469-da55cbe15cfe" />
+<img width="869" height="578" alt="image" src="https://github.com/user-attachments/assets/e3fc072f-9841-47b3-9b09-b800b4fed5dc" />
